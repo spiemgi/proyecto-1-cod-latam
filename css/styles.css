@@ -36,7 +36,7 @@ h2{
 }
 
 p{
-    margin: 16px 0;
+    margin: 20px 20px;
 }
 
 img {
@@ -128,10 +128,12 @@ figure.presentacion-img img {
 article {
     width: 100%;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a.btn {
-    background-color: blueviolet;
+    background-color: baf599e;
     color: #fbfbfb;
     padding: 12px 20px;
     border-radius: 50px;
@@ -139,3 +141,36 @@ a.btn {
     display: inline-block;
 }
 
+section#contacto{
+    
+    justify-content: space-around;
+}
+
+article.context {
+    background-color: rgba(175, 89, 158, 0.3); 
+    color: #0f0f0f;
+    border-radius: 10px;
+}
+
+
+figure.enlace-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.enlace-img div {
+ 
+    justify-content: space-evenly;
+    padding: 10px;
+
+
+}
+
+footer{
+
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    background-color:  rgba(175, 89, 158, 0.3);
+    height: 90px;
+}
